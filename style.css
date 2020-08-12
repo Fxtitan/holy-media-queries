@@ -43,3 +43,79 @@
   width: 100vw;
   background-color: #f08a4b;
 }
+
+/* mobile */
+@media (max-width: 600px){ 
+  #main #articles {
+    width: 100vw;
+  }
+
+  #ads {
+    width: 100vw;
+    height: 50%;
+  }
+
+  #main {
+    height: 100%;
+  }
+
+  #articles {
+    height: 50%;
+  }
+
+  #nav {
+    width: 100vw;
+  }
+
+  #header {
+    height: 25vh;
+  }
+}
+/* mobile */
+
+/* desktop */
+@media (min-width: 1000px) {
+  #main {
+    display: flex;
+  }
+
+  #middle {
+    display: flex;
+  }
+
+  #articles {
+    width: 75vw;
+  }
+
+  #nav, #ads {
+    width: 25vw;
+  }
+
+  #footer {
+    height: 25%;
+  }
+}
+/* desktop */
+
+/* tablet */
+@media (min-width: 601px) and (max-width: 999px) {
+  #nav {
+    width: 100%;
+  }
+
+  #main {
+    display: flex;
+    width: 100vw;
+  }
+
+  #articles, #ads {
+    width: 50vw;
+    height: 50vh;
+  }
+
+  #footer {
+    height: 25vh
+  }
+
+}
+
